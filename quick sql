@@ -1,0 +1,8 @@
+product /insert 50
+    product_id num /pk
+    product_code vc10/uper /unique
+    product_name vc100
+    descripation vc250
+    quantity num \between 10 and 50
+    price num /between 100 and 1000
+    product_category_id num / values 1,2,3,4,5
